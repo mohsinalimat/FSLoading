@@ -7,13 +7,13 @@
 导入工程下的FSLoading文件夹, 然后import "UIView+FSLoading"<p>
 ```objc
 `// 显示动画
-`view showLoading;
-````
+view showLoading;
+```
 ````objc
 `// 隐藏动画:
-`view hideLoading;
-`````
-
+view hideLoading;
+```
+`
 
 
 [image-1]:	https://github.com/lifution/FSLoading/blob/master/gif/Loading.gif

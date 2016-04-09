@@ -24,13 +24,14 @@
 
 - (IBAction)showLoading:(id)sender {
     
+    // 显示动画
     [self.view showLoading];
     
     [self performSelector:@selector(hideLoading) withObject:nil afterDelay:3.f];
 }
 
-- (void)hideLoading
-{
+- (void)hideLoading {
+    // 隐藏动画
     [self.view hideLoading];
 }
 

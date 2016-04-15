@@ -8,9 +8,7 @@
 
 #import "FSLoading.h"
 
-@interface FSLoading ()
-{
-@private
+@interface FSLoading () {
     CALayer *_topDot;
     CALayer *_leftDot;
     CALayer *_rightDot;
